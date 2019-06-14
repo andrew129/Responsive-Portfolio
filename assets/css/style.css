@@ -135,17 +135,35 @@ footer{
 @media screen and (max-width: 640px) {
 
     #name {
-        width: 100%;
+        width: 80%;
         z-index: 2;
         position: absolute;
-        right: 20px;
-        margin: 0 auto;
-        padding-left: 
+        padding-right: 48px;
+        text-align: center;
+        padding-left: 40px;
 
+    }
+
+    #navigation {
+        padding-bottom: 100px;
+        padding-left: 100px;
+        margin-bottom: 20px;
+        
+    }
+
+    a {
+        right: 183px;
+        top: 85px;
+        position: relative;
+    }
+
+    .main-content {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-right: 20px;
     }
 }
 
 
 
 
-}
