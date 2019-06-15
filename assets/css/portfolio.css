@@ -83,3 +83,81 @@ a:hover {
     padding-top: 1px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 980px) {
+    .main-content {
+        width: 65%;
+        padding: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    a {
+        right: 10px;
+    }
+
+    #about-me {
+        padding-top: 2px;
+    }
+
+    #name {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .main-content {
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    #name {
+        margin-left: 20px;
+        padding: 8px 20px 6px 20px;
+        
+    }
+
+    #navigation {
+        padding-bottom: 50px;
+        padding-left: 500px;
+    }
+
+    a {
+        position: relative;
+        right: 0.1px;
+        top: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #name {
+        width: 80%;
+        z-index: 2;
+        position: absolute;
+        padding-right: 48px;
+        text-align: center;
+        padding-left: 40px;
+
+    }
+
+    #navigation {
+        padding-bottom: 100px;
+        padding-left: 100px;
+        margin-bottom: 20px;
+        
+    }
+
+    a {
+        right: 183px;
+        top: 85px;
+        position: relative;
+    }
+
+    .main-content {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-right: 20px;
+    }
+}

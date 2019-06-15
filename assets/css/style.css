@@ -88,10 +88,10 @@ footer{
 
 @media screen and (max-width: 980px) {
     .main-content {
-        width: 50%;
+        width: 68%;
         padding: 20px;
         margin-top: 10px;
-        margin-left: 80px;
+        margin-left: 40px;
     }
 
     a {
@@ -103,7 +103,7 @@ footer{
     }
 
     #name {
-        margin-left: 80px;
+        margin-left: 40px;
     }
 }
 
